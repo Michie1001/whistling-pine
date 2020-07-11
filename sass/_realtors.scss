@@ -8,6 +8,10 @@
 	align-content: center;
 	grid-row-gap: 2rem;
 
+	@media only screen and (max-width: $bp-large) {
+		display: none;	
+	}	
+
 	&__realtor{
 		display: grid;
 		grid-column-gap: 1rem;
